@@ -1,12 +1,9 @@
 {
   "type": "module",
-  "name": "strava-webhook",
+  "name": "strava-webhook-function",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Aljaz",
+  "author": "aljaz <aljazpun@gmail.com>",
   "license": "MIT"
 }

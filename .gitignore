@@ -1,3 +1,8 @@
+# Digital Ocean
+.env
+.deployed/
+**/__deployer__.zip
+
 # Logs
 logs
 *.log

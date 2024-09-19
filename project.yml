@@ -1,5 +1,3 @@
-parameters: {}
-environment: {}
 packages:
   - name: strava
     functions:
@@ -7,3 +5,5 @@ packages:
         runtime: nodejs:18
         web: true
         webSecure: false
+        environment:
+          STRAVA_VERIFY_TOKEN: "${STRAVA_VERIFY_TOKEN}"
