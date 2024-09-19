@@ -1,0 +1,9 @@
+parameters: {}
+environment: {}
+packages:
+  - name: strava
+    functions:
+      - name: webhook
+        runtime: nodejs:18
+        web: true
+        webSecure: false
